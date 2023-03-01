@@ -44,6 +44,7 @@ router.put("/:id", (req, res, next) => {
 	});
 });
 
+// router.delete();
 router.delete("/:id", (req, res, next) => {
 	const id = req.params.id;
 	res.status(200).json({
@@ -56,5 +57,4 @@ router.delete("/:id", (req, res, next) => {
 	});
 });
 
-// router.delete();
 module.exports = router;
