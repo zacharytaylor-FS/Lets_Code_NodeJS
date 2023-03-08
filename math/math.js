@@ -11,8 +11,8 @@ const mathOperations = {
 	divide: function (a, b) {
 		return a / b;
 	},
-	sqrt: function(a, b){
-		return (Math.sqrt((a * a) + (b * b)))
+	sqrt: function(num){
+		return (Math.sqrt(num))
 	},
 	max: function(a,b){
 		return (Math.max((a,b)))
