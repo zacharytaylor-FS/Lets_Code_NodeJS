@@ -1,50 +1,65 @@
-# 🏛️ Server Side Languages
+# Node.js & Server Side Languages
+## What is Node.js?
+- NodeJS is a open source __Server Environment__
+- Uses __`Asynchronous Programming`__
+- Runs single-threaded
+- Uses __``` JavaScript ```__ on server
 
-## 💻 RESTful Service
+## What can Node.js Do?
+- `Node.js` can generate dynamic page content
+- `Node.js` Can `Create, Open, Read, Write, Delete, and close files on a servere.
+- `Node.js` Can collect form data
+- `Node.js` Can Add, Delete, modify data in a database
 
-<ul> Technology used
-<li> NodeJS
-<li> ExpressJS
-<ul> TESTING
-<li>
-</li> JEST
-</ul>
-</ul>
-## Node.js
+## What is a `Node.js` File?
+- `Node.js` files contain tasks to be executed on certain events
+- File must be initiated on server 
+
+### Back-end API(Application Programmable Interface)
 
 ---
+### Topics
 
--   Server-Side platfrom built on Google Chrome's JS Engine (V8 Engine)
 
--   Runtime environment for building server-side and networking applications.
+* **HTTP Module**
+* **Modules**
+* **FS**
+* **URL Module**
+* **Send an Email**
+* **Express.js**
+  * CORS
+  * Design Pattern
+    * *Server*
+    * *Listener*
+    * *Router* 
+  * **Unit Testing**
+    * *Jest*
+  * **Nodemon**
+  * **Middleware**
 
--   Asynchronous event-driven Javascript runtime.
 
--   No Buffering - output data in chunks!
 
--   Node.js app runs in a single process, without creating a new thread for every request.
+## Getting Started
 
-    -   Provides a set of asynchronous I/O primitives from it's library.
+```shell
+mkdir folder_name
+cd folder_name
+npm init
+npm update
 
-### NodeJS Design Pattern
 
-#### Server,Listener,Router
-
--   Create 3 modules
-
-    -   **Server** - server/server.js
-
-    -   **Listener** - app/app.js
-
-    -   **Router** - router/router.js
-
-### Testing
-
-## JEST
-
-#### Test Driven Development - TTD
-
--   Software Dev approach where test cases are developed to validate what the code may do.
-
--   Jest will look for any file
-    -   string.test.js
+git init
+###CREATE REPO in GITHUB
+git remote add origin git@github.com:username-EX/Name_of_Repo.git
+git branch -M main
+```
+### To Run Project
+```shell
+npm i
+npm start
+```
+### To Run Test
+```shell
+npm i
+npm test
+```
