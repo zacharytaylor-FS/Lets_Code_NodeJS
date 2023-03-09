@@ -1,5 +1,6 @@
 const { uppercase, lowercase } = require("./string");
 describe("Testing the string module", () => {
+	
 	test("Should uppercase a string input", () => {
 		const result = uppercase("bob");
 		expect(result).toBe("BOB");
